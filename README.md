@@ -3,7 +3,9 @@
 ## 📌 Project Description
 This project is a **command-line API client** written in Python that interacts with a public currency exchange rate API.
 It allows users to:
+
 - Fetch latest currency exchange rates
+- 
 - Convert an amount from one currency to another
 
 The project uses a simple CLI interface and demonstrates how to consume REST APIs using Python.
@@ -46,7 +48,9 @@ It is designed to practice:
 project/
 │
 ├── client.py # Main API client script
+
 ├── config.json # (Optional) API base URL configuration
+
 ├── README.md # Project documentation
 
 ---
@@ -56,24 +60,34 @@ project/
 1. Clone the repository:
 ```bash
 git clone <repository-url>
+
 cd project
 2. (Optional) Create a virtual environment:
+
    python -m venv venv
+
 3. Activate the virtual environment:
+
    venv\Scripts\activate
+
 4. Install required dependency:
+
    pip install requests
 
 ▶️ Command-Line Usage
+
 The script supports two commands: rates and convert.
 
 🔹Fetch Currency Rates
+
  python client.py rates --from USD
 
 🔹 Convert Currency
+
  python client.py convert --from USD --to INR --amount 10
 
 Example Output
+
 Rates Output
 {
   "base_code": "USD",
@@ -84,20 +98,31 @@ Rates Output
 }
 
 Convert Output
+
 10 USD = 832.0 INR
 
 🧪 Error Handling
+
 Handles network and API errors gracefully
+
 Prints meaningful error messages for:
+
 Invalid currencies
+
 Missing arguments
+
 API request failures
 
 📌 Limitations
+
 No automated tests included
+
 No authentication handling
+
 Uses a public API without rate-limit handling
 
 📌 Conclusion
+
 This project demonstrates how to build a simple CLI-based API client in Python.
+
 It is suitable for learning API consumption, CLI argument parsing, and basic error handling.
