@@ -60,16 +60,17 @@ project/
 1. Clone the repository:
 git clone <repository-url>
 
-cd project
-2. (Optional) Create a virtual environment:
+   cd project
+   
+3. (Optional) Create a virtual environment:
 
    python -m venv venv
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
 
    venv\Scripts\activate
 
-4. Install required dependency:
+5. Install required dependency:
 
    pip install requests
 
