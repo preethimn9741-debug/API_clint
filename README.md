@@ -1,6 +1,6 @@
 # Currency API Client
 
-## 📌 Project Description
+## Project Description
 This project is a **command-line API client** written in Python that interacts with a public currency exchange rate API.
 It allows users to:
 
@@ -11,11 +11,11 @@ The project uses a simple CLI interface and demonstrates how to consume REST API
 
 ---
 
-## 🎯 Purpose of the Project
+##  Purpose of the Project
 This project is:
-- ✅ A learning exercise
-- ✅ A simple API client
-- ❌ Not a production-ready financial tool
+-  A learning exercise
+-  A simple API client
+-  Not a production-ready financial tool
 
 It is designed to practice:
 - API requests
@@ -24,7 +24,7 @@ It is designed to practice:
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - **Language:** Python
 - **Library:** requests
 - **Execution:** Command Line (CLI)
@@ -33,7 +33,7 @@ It is designed to practice:
 
 ---
 
-## 🏗 How the Code Works
+##  How the Code Works
 - The script reads an optional `config.json` file to get the API base URL
 - If `config.json` is not present, a default API URL is used
 - API requests are made using the `requests` library
@@ -43,7 +43,7 @@ It is designed to practice:
 
 ---
 
-📂 Project Files
+ Project Files
 project/
 │
 
@@ -74,15 +74,15 @@ git clone <repository-url>
 
    pip install requests
 
-▶️ Command-Line Usage
+ Command-Line Usage
 
 The script supports two commands: rates and convert.
 
-🔹Fetch Currency Rates
+ Fetch Currency Rates
 
  python client.py rates --from USD
 
-🔹 Convert Currency
+ Convert Currency
 
  python client.py convert --from USD --to INR --amount 10
 
@@ -101,7 +101,7 @@ Convert Output
 
 10 USD = 832.0 INR
 
-🧪 Error Handling
+Error Handling
 
 Handles network and API errors gracefully
 
@@ -113,7 +113,7 @@ Missing arguments
 
 API request failures
 
-📌 Limitations
+Limitations
 
 No automated tests included
 
@@ -121,7 +121,7 @@ No authentication handling
 
 Uses a public API without rate-limit handling
 
-📌 Conclusion
+Conclusion
 
 This project demonstrates how to build a simple CLI-based API client in Python.
 
